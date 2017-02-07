@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>アクセスキーを設定したい</title>
+<link rel="stylesheet" href="../../common/css/style-hastings.css">
+</head>
+<body>
+<header>
+	<div class="header-container">
+		<h1>Hastings</h1>
+	</div>
+</header>
+<div class="contents">
+	<div class="contents-container">
+	<!-- サンプル ここから -->
+
+	<h1>登録情報</h1>
+	<form action="#" method="POST">
+		<p>
+			<label>IDの再設定（I） <input type="text" name="id_name" accesskey="I"></label>
+		</p>
+		<p>
+			<label>パスワードの再設定（P） <input type="password" name="pw" accesskey="P"></label>
+		</p>
+		<p>
+			2段階認証を
+			<label><input type="radio" name="tfa" value="y" accesskey="Y">使用する（Y）</label>
+			<label><input type="radio" name="tfa" value="n" accesskey="N">使用しない（N）</label>
+		</p>
+		<p><input type="submit" value="設定変更（S）" accesskey="S"></p>
+	</form>
+	
+	<!-- サンプル ここまで -->
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<p><small>©Hastings</small></p>
+	</div>
+</footer>
+</body>
+</html>

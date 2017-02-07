@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>JavaScriptをHTMLに直接書きたい</title>
+</head>
+<body>
+<div>
+	<p>パスワードを忘れた方</p>
+	<button id="btn01">パスワードをリセット</button>
+</div>
+
+<script>
+(function(){
+	document.getElementById('btn01').addEventListener('click', function(e){
+		window.alert('パスワードをリセットします。よろしいですか？')
+	})
+})();
+</script>
+</body>
+</html>

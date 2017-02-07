@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>JavaScriptが動作しないときのコンテンツを記述したい</title>
+</head>
+<body>
+<div class="forget-password">
+	<p>パスワードを忘れた方</p>
+	<button id="btn01">パスワードをリセット</button>
+</div>
+<noscript>
+	<style>
+		.forget-password {
+			display: none;
+		}
+	</style>
+	<div>
+		パスワードを忘れた方は<a href="#">こちらのページでパスワードをリセット</a>してください。
+	</div>
+</noscript>
+
+<script>
+(function(){
+	document.getElementById('btn01').addEventListener('click', function(e){
+		window.alert('パスワードをリセットします。よろしいですか？')
+	})
+})();
+</script>
+</html>

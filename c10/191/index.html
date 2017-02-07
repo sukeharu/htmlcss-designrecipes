@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>タブキーの選択順序を設定したい</title>
+<link rel="stylesheet" href="../../common/css/style-hastings.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<div class="header-container">
+		<h1>Hastings</h1>
+	</div>
+</header>
+<div class="contents">
+	<div class="contents-container">
+	<!-- サンプル ここから -->
+
+	<form action="#">
+		<div class="stations">
+			<p class="station">
+				<label>出発駅：<input type="text" name="start" tabindex="1"></label>
+			</p>
+			<p class="ways">
+				<select name="ways" tabindex="3">
+					<option value="round">往復</option>
+					<option value="oneway">片道</option>
+				</select>
+			</p>
+			<p class="station">
+				<label>到着駅：<input type="text" name="end" tabindex="2"></label>
+			</p>
+		</div>
+		<div class="search_btn"><input type="submit" value="経路検索" tabindex="4"></div>
+	</form>
+	
+	<!-- サンプル ここまで -->
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<p><small>©Hastings</small></p>
+	</div>
+</footer>
+</body>
+</html>

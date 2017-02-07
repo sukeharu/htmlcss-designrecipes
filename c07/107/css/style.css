@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+iframe {
+	border: 1px solid #ccc;
+	border: none;
+}
+*/
+
+/* iframe内のHTML(sub/c07-06-sub.html)用のCSS */
+.report h2 {
+	font-size: 1em;
+}
+.report p {
+	font-size: 0.85em;
+}

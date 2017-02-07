@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>複数の項目を選択できるリストを表示したい</title>
+<link rel="stylesheet" href="../../common/css/style-nuage.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<div class="header-container">
+		<h1>Nuage</h1>
+	</div>
+</header>
+<div class="contents">
+	<div class="contents-container">
+	<!-- サンプル ここから -->
+
+	<h1>レストラン検索</h1>
+	<form action="#" method="POST">
+		<label>希望条件（複数選択可）<br>
+			<select name="restaurant" multiple>
+				<option value="japanese">和食</option>
+				<option value="western">洋食</option>
+				<option value="chinese">中国料理</option>
+				<option value="others">その他料理</option>
+				<option value="cafe">カフェ</option>
+				<option value="private">個室あり</option>
+				<option value="somoking">分煙</option>
+				<option value="nonsmoking">禁煙</option>
+				<option value="kidschair">子ども椅子あり</option>
+				<option value="kidsmenu">子どもメニューあり</option>
+				<option value="anniversary">記念日サービスあり</option>
+			</select>
+		</label>
+		<p><input type="submit" value="検索"></p>
+	</form>
+
+	<!-- サンプル ここまで -->
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<p>©nuage</p>
+	</div>
+</footer>
+</body>
+</html>

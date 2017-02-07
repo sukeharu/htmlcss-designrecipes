@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>c07-06-sub</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="report">
+<main>
+	<ul class="report-list">
+		<li><a href="#0810">サーバーメンテナンスのお知らせ（8/10）</a></li>
+		<li><a href="#0720">メール送受信障害（7/20）</a></li>
+	</ul>
+	<article id="0810">
+		<h2>サーバーメンテナンスのお知らせ</h2>
+		<p>8月10日2時00分から5時00分の間、セキュリティ対策のためサーバーメンテナンスを行います。対象のサーバーはABC01、ABC02、ABC03、ABC04、ABC05です。ご利用中の皆様にはご迷惑をおかけしますが、ご理解のほどお願い申し上げます。</p>
+	</article>
+	<article id="0720">
+		<h2>メール送受信障害</h2>
+		<p>7月20日1時24分から2時10分まで、ABC01サーバーにてメールの送受信がしづらい状態が発生しておりました。ご利用の皆様には大変ご迷惑をおかけいたしました。</p>
+	</article>
+	<div class="contact">
+		<h2>管理会社</h2>
+		<p><a href="http://studio947.net" target="_top">株式会社Studio947</a></p>
+	</div>
+</main>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+	var iframe = window.parent.document.getElementById('inner-frame');
+	iframe.style['height'] = document.body.scrollHeight + 'px';
+});
+</script>
+</body>
+</html>
