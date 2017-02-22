@@ -13,7 +13,7 @@
 
 * [出版社（技術評論社）の書籍紹介ページ](http://gihyo.jp/book/2017/978-4-7741-8780-8)
 * 公式サンプルデータダウンロード
-* 著者の書籍紹介ページ
+* [著者の書籍紹介ページ](http://www.solidpanda.com/book/title/2911/)
 * [Amazon](http://amzn.to/2ll7eOa)
 
 ## 書誌情報
