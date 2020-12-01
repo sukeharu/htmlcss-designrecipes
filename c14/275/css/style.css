@@ -109,6 +109,7 @@ main { }
 		overflow: hidden;
 	}
 	.sidebar {
+		position: relative;
 		float: left;
 		margin: 0 20px 0 20px;
 		width: 300px;
@@ -146,14 +147,6 @@ main { }
 .subnav li a:hover,
 .subnav li a.current {
 	color: #7bae34;
-}
-@media screen and (min-width: 768px) {
-	.column1 h1 {
-		font-size: 2rem;
-	}
-	.sub-nav li {
-		padding: 20px;
-	}
 }
 
 /* メインコンテンツ */

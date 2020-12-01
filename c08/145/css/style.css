@@ -10,6 +10,6 @@ tbody th {
 	text-align: left;
 	vertical-align: top;
 }
-tbody th:last-child {
+tbody td:last-child {
 	text-align: right;
 }
